@@ -49,3 +49,9 @@ h1 {
 div {
     margin-top: 230px;
 }
+
+img {
+    overflow-clip-margin: content-box;
+    overflow: clip;
+    width: 80%;
+}
