@@ -1,0 +1,43 @@
+.wrapper {
+    display: grid;
+    grid-template-columns: 20% 80%;
+    grid-template-rows: 10% 5% auto 10%;
+    height: 97vh;
+    grid-template-areas:
+    "hd hd"
+    "asd nav"
+    "asd art"
+    "ftr ftr"
+}
+
+header {
+    grid-area: hd;
+    background-color: pink;
+    text-align: center;
+}
+
+aside {
+    grid-area: asd;
+    background-color: plum;
+    text-align: center;
+}
+
+nav {
+    grid-area: nav;
+    background-color: paleturquoise;
+    text-align: center;
+}
+
+article {
+    grid-area: art;
+    background-color: mediumaquamarine;
+    text-align: center;
+}
+
+footer {
+    grid-area: ftr;
+    background-color: beige;
+    text-align: center;
+}
+
+
