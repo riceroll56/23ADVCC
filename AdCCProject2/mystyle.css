@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 * {
     font-family: sans-serif;
 }
@@ -122,4 +123,130 @@ img {
     padding-top: 100px;
     grid-area: img4;
     justify-self: center;
+=======
+* {
+    font-family: sans-serif;
+}
+
+
+header {
+    padding: 20px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    border: 20px;
+    font-size: 50px;
+    text-align: center;
+    background-color: rgb(251, 200, 209);
+    color:rgb(153, 60, 60);
+    -webkit-text-stroke: 1px white;
+}
+
+.home-nav {
+    flex: 1;
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(254, 235, 140);
+}
+
+.home-links {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.home-links a{
+
+    text-decoration: none;
+    color: rgb(153, 60, 60);
+    
+}
+
+.home-links a:hover{
+
+    font-weight: bold;
+    text-decoration: none;
+    border-bottom: 1px solid rgb(153, 60, 60);
+    color: rgb(153, 60, 60);
+    
+}
+
+.home-nav2 {
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.container {
+    padding-top: 10%;
+    padding-bottom: 40%;
+}
+
+.image-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 100% auto;
+    height: 100vh;
+    grid-template-areas:
+    "img1 img1"
+    "img2 img3"
+}
+
+.image-container2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 100% auto 100%;
+    width: 100%;
+    padding-bottom: 45%;
+    height: 100vh;
+    grid-template-areas:
+    "img1 img1"
+    "img2 img3"
+    "img4 img4"
+}
+
+.image-container3 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 100% auto;
+    height: 5vh;
+    grid-template-areas:
+    "img2 img3"
+}
+
+.image-container4 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 100% auto;
+    height: 5vh;
+    grid-template-areas:
+    "img1 img1"
+}
+
+img {
+    grid-area: img;
+}
+
+.img1 {
+    grid-area: img1;
+    justify-self: center;
+}
+
+.img2 {
+    grid-area: img2;
+    padding-right: 75px;
+    justify-self: center;
+    padding-left: 250px;
+
+}
+
+.img3 {
+    grid-area: img3;
+}
+
+.img4 {
+    padding-top: 100px;
+    grid-area: img4;
+    justify-self: center;
+>>>>>>> a3d74073d60415df27c0e4ad7741f3e7bafa69ef
 }
