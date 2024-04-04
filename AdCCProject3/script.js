@@ -183,7 +183,7 @@ const questions = [
                 scores: { D: 0, C: 0, H: 0, S: +1 },
             },
             C: {
-                text: "get reported",
+                text: "getting reported",
                 scores: { D: 0, C: +1, H: 0, S: 0 },
             },
 
