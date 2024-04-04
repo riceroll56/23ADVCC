@@ -334,8 +334,8 @@ function showResult() {
 
     //descriptions
     const resultDescriptions = {
-        'C': '<h2><br>You enjoy trolling and wrecking havoc. You often spawn camp, friendly fire, exploit glitches etc. You also prefers multiplayer games<br></br>You might enjoy:<br>Red Dead Redemption<br>Minecraft<br>Rust</h2>',
-        'S': '<h2><br>You enjoy open-world games and going on journeys. You are often seen alone and play single-player games.<br></br>You might enjoy:<br>Zelda<br>The Witness<br>Firewatch</h2>',
+        'C': '<h2><br>You enjoy trolling and wrecking havoc. You often spawn camp, friendly fire, exploit glitches etc. You also prefer multiplayer games<br></br>You might enjoy:<br>Red Dead Redemption<br>Minecraft<br>Rust</h2>',
+        'S': '<h2><br>You enjoy open-world games and going on journeys. You are often seen alone in MMOs or you play single-player games.<br></br>You might enjoy:<br>Zelda<br>The Witness<br>Firewatch</h2>',
         'D': '<h2><br>You have a logical and analytical personality. You prefer to approach tasks methodically and solve problems efficiently.<br></br>You might enjoy:<br>Stardew Valley<br>Destiny 2<br>Hades</h2>',
         'H': '<h2><br>You enjoy talking and meeting new people in games. You often play multiplayer MMORPG games.<br></br>You might enjoy:<br>Among Us<br>Guild War2<br>Phasmophobia</h2>'
     };
