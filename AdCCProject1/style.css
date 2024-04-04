@@ -1,0 +1,51 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #0a0a0a;
+    color: #ffffff;
+    background-image: url("Cover.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: scroll;
+    overflow-x: hidden;
+    position: relative;
+}
+
+header {
+    background-color: #001f3f;
+    color: #ffffff;
+    text-align: center;
+    padding: 1em 0;
+}
+
+main {
+    max-width: 800px;
+    margin: 20px auto;
+}
+
+a {
+    color: #BB8CFD;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+p {
+    margin-left: 420px;
+    font-size: 10pt;
+    line-height: 5pt;
+}
+
+h1 {
+    margin-left: 710px;
+    line-height: 10pt;
+}
+
+div {
+    margin-top: 230px;
+}
